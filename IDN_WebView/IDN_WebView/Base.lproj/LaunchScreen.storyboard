@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura.ttc">
+            <string>Futura-Medium</string>
+        </array>
+        <array key="GillSans.ttc">
+            <string>GillSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unnamed" translatesAutoresizingMaskIntoConstraints="NO" id="KbP-jp-1js">
+                                <rect key="frame" x="16" y="135" width="343" height="343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="KbP-jp-1js" secondAttribute="height" multiplier="1:1" id="OTs-MN-rli"/>
+                                    <constraint firstAttribute="width" constant="343" id="mlL-AA-VDX"/>
+                                    <constraint firstAttribute="height" constant="343" id="ngY-u5-Gss"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IDN School" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMC-V7-gnJ">
+                                <rect key="frame" x="16" y="50" width="343" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="QMC-V7-gnJ" secondAttribute="height" multiplier="49:8" id="9Jo-D7-sEQ"/>
+                                    <constraint firstAttribute="height" constant="56" id="A3D-63-gqU"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="LFD-xu-5wa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="48"/>
+                                <color key="textColor" red="0.8018452525138855" green="0.045753821730613708" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IT Boarding School" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zoy-Wq-IQU">
+                                <rect key="frame" x="16" y="535" width="343" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="zc7-b5-VaF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="34"/>
+                                <color key="textColor" red="0.8018452525138855" green="0.045753821730613708" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="KbP-jp-1js" firstAttribute="top" secondItem="QMC-V7-gnJ" secondAttribute="bottom" constant="29" id="1Ev-I0-qkX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KbP-jp-1js" secondAttribute="trailing" constant="16" id="3Cy-KN-rL3"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zoy-Wq-IQU" secondAttribute="trailing" constant="16" id="5e7-Zl-ljP"/>
+                            <constraint firstItem="QMC-V7-gnJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="89X-R5-iqq"/>
+                            <constraint firstItem="zoy-Wq-IQU" firstAttribute="top" secondItem="KbP-jp-1js" secondAttribute="bottom" constant="57" id="RWD-Rg-sIr"/>
+                            <constraint firstItem="KbP-jp-1js" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="SVm-Ps-liC"/>
+                            <constraint firstItem="KbP-jp-1js" firstAttribute="top" secondItem="QMC-V7-gnJ" secondAttribute="bottom" constant="29" id="gIF-fu-ESv"/>
+                            <constraint firstItem="QMC-V7-gnJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="q2h-p2-hgm"/>
+                            <constraint firstItem="zoy-Wq-IQU" firstAttribute="leading" secondItem="KbP-jp-1js" secondAttribute="leading" id="qQl-tv-iWJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QMC-V7-gnJ" secondAttribute="trailing" constant="16" id="sP6-Qr-ifC"/>
+                            <constraint firstItem="zoy-Wq-IQU" firstAttribute="top" secondItem="KbP-jp-1js" secondAttribute="bottom" constant="57" id="vPc-XO-HXC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zoy-Wq-IQU" secondAttribute="bottom" constant="87.5" id="yVn-3x-nH4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="unnamed" width="1088" height="1088"/>
+    </resources>
+</document>
